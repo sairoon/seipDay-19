@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+    <div class="container">
+        <a href="" class="navbar-brand">LOGO</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ms-auto">
+                <li><a href="" class="nav-link">Home</a></li>
+                <li><a href="" class="nav-link">About</a></li>
+                <li><a href="" class="nav-link">Gallery</a></li>
+                <li><a href="" class="nav-link">Contact</a></li>
+                <li><a href="" class="nav-link">Sign In</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<br>
+<section class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="text-center">Register</h3>
+                    </div>
+                    <div class="card-body">
+                        <form action="">
+                            <div class="row">
+                                <label for="name" class="col-md-4">Name*</label>
+                                <div class="col-md-8">
+                                    <input type="text" id="name" class="form-control" placeholder="Enter Your Name"/>
+                                </div>
+                            </div>
+                            <div class="row mt-2">
+                                <label for="email" class="col-md-4">Email*</label>
+                                <div class="col-md-8">
+                                    <input type="email" id="email" class="form-control" placeholder="Enter Your Email"/>
+                                </div>
+                            </div>
+                            <div class="row mt-2">
+                                <label for="mobile" class="col-md-4">Mobile No</label>
+                                <div class="col-md-8">
+                                    <input type="number" id="mobile" class="form-control" placeholder="Enter Your Mobile no"/>
+                                </div>
+                            </div>
+                            <div class="row mt-2">
+                                <label for="password" class="col-md-4">Password*</label>
+                                <div class="col-md-8">
+                                    <input type="password" id="password" class="form-control" placeholder="Enter Password"/>
+                                </div>
+                            </div>
+                            <div class="row mt-2">
+                                <label for="confirmPass" class="col-md-4">Confirm Password*</label>
+                                <div class="col-md-8">
+                                    <input type="password" id="confirmPass" class="form-control" placeholder="Enter Confirm Password"/>
+                                </div>
+                            </div>
+                            <div class="row mt-2">
+                                <label for="dob" class="col-md-4">Date of Birth</label>
+                                <div class="col-md-8">
+                                    <input type="date" id="dob" class="form-control" placeholder=""/>
+                                </div>
+                            </div>
+                            <div class="row mt-2">
+                                <label for="" class="col-md-4">Gender</label>
+                                <div class="col-md-8">
+                                    <label for="male"><input type="radio" id="male" name="gender"/> Male</label>
+                                    <label for="female"><input type="radio" id="female" name="gender"/> Female</label>
+                                    <label for="other"><input type="radio" id="other" name="gender"/> Other</label>
+                                </div>
+                            </div>
+                            <div class="row mt-2">
+                                <label for="address" class="col-md-4">Address</label>
+                                <div class="col-md-8">
+                                    <textarea id="address" class="form-control" rows="5"></textarea>
+                                </div>
+                            </div>
+                            <div class="row mt-2">
+                                <label for="division" class="col-md-4">Division</label>
+                                <div class="col-md-8">
+                                    <select name="" class="form-control" id="division">
+                                        <option value="">--Select--</option>
+                                        <option value="">Dhaka</option>
+                                        <option value="">Rajshahi</option>
+                                        <option value="">Rongpur</option>
+                                        <option value="">Sylet</option>
+                                        <option value="">Barishal</option>
+                                        <option value="">Chittagong</option>
+                                        <option value="">Khulna</option>
+                                        <option value="">Mymansing</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row mt-2">
+                                <label for="" class="col-md-4">Image</label>
+                                <div class="col-md-8">
+                                    <input type="file" id="image" class="form-control" accept="image/*" placeholder=""/>
+                                </div>
+                            </div>
+                            <div class="row mt-2">
+                                <p>
+                                    <input type="checkbox"> I agree with all terms & Conditions.
+                                </p>
+                            </div>
+                            <div class="row mt-2">
+                                <div>
+                                    <input type="submit" class="btn btn-outline-success col-md-12" value="Register">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<br>
+<script src="js/bootstrap.bundle.js"></script>
+</body>
+</html>
